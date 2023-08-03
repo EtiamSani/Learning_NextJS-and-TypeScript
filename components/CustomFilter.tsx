@@ -1,8 +1,16 @@
-import React from 'react'
+'use client'
 
-const CustomFilter = () => {
+import React from 'react'
+import {useState, Fragment} from 'react'
+import { useRouter } from 'next/navigation'
+import { Listbox, Transition } from '@headlessui/react'
+import { CustomfilterProps } from '@/types'
+
+const CustomFilter = ({title, options} : CustomfilterProps) => {
   return (
-    <div>CustomFilter</div>
+    <div className='w-fit'>
+
+    </div>
   )
 }
 
